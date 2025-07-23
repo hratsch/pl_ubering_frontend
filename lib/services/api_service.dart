@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 
 class ApiService {
-  static const String baseUrl = 'https://uberpl.yourdomain.com'; // Replace with your Cloudflare Tunnel URL
+  static const String baseUrl = 'https://qcosyycifpemilbatncwgqgk.rtunl.app'; // Replace with your Cloudflare Tunnel URL
   final storage = const FlutterSecureStorage();
 
   Future<String?> login(String password) async {
